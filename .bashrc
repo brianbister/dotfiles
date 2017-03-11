@@ -6,6 +6,8 @@ alias hgrep=history_grep
 alias cd=cd_autopushd
 alias d="dirs -v | head"
 
+set -o vi
+
 # Go to previous directories.
 function cd_autopushd() {
   local dir="$1"
