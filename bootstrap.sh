@@ -31,3 +31,6 @@ done
 
 source ~/.bashrc
 source ~/.vimrc
+
+# install vim plugins
+vim +PluginInstall +qall
